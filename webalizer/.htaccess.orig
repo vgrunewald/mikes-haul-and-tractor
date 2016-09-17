@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName www.mikeshaulandtractor.com
+AuthUserFile /home/virtual/site42/fst/etc/webalizer/.passwd
+AuthGroupFile /dev/null
+Require valid-user

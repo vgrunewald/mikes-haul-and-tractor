@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.(.*)
+RewriteRule .* /cgi-bin/awstats/awstats.pl?config=%1 [R=302,L]
+RewriteCond %{HTTP_HOST} (.*)
+RewriteRule .* /cgi-bin/awstats/awstats.pl?config=%1 [R=302,L]
+AuthType Basic
+AuthName "Awstats"
+AuthUserFile "/home/admin42/.htpasswds/public_html/awstats/passwd"
+require valid-user
