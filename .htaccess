@@ -13,6 +13,18 @@ Redirect 301 /excavation.htm http://www.mikeshaulandtractor.com/earthmoving.htm
 Redirect 301 /excavation.html http://www.mikeshaulandtractor.com/earthmoving.html
 Redirect 301 /tree-removal.html http://www.mikeshaulandtractor.com/tree-maintenance.html
 Redirect 301 /tree_removal.html http://www.mikeshaulandtractor.com/tree_maintenance.html
+Redirect 301 /graphics/photos/backyard-leveling-excavation-before.jpg http://www.mikeshaulandtractor.com/graphics/photos/backyard-leveling-before.jpg
+Redirect 301 /graphics/photos/backyard-leveling-excavation-after.jpg http://www.mikeshaulandtractor.com/graphics/photos/backyard-leveling-after.jpg
+Redirect 301 /graphics/photos/excavation.jpg http://www.mikeshaulandtractor.com/graphics/photos/earthmoving.jpg
+Redirect 301 /graphics/photos/home-yard-excavation.jpg http://www.mikeshaulandtractor.com/graphics/photos/home-yard-earthmoving.jpg
+Redirect 301 /graphics/photos/tree-removal.jpg http://www.mikeshaulandtractor.com/graphics/photos/tree-maintenance.jpg
+Redirect 301 /graphics/services/excavation.jpg http://www.mikeshaulandtractor.com/graphics/services/earthmoving.jpg
+Redirect 301 /graphics/services/tree-removal.jpg http://www.mikeshaulandtractor.com/graphics/services/tree-maintenance.jpg
+
+
+
+
+
 
 
 
