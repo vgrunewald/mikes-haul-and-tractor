@@ -28,7 +28,7 @@ $(function() {
 <script type="text/javascript">
 $(document).ready(function(){
     jQuery.validator.addMethod("phoneUS", function(phone_number, element) {
-    phone_number = phone_number.replace(/\s+/g, ""); 
+    phone_number = phone_number.replace(/\s+/g, "");
 	return this.optional(element) || phone_number.length > 9 &&
 		phone_number.match(/^(1-?)?(\([2-9]\d{2}\)|[2-9]\d{2})-?[2-9]\d{2}-?\d{4}$/);
 }, "Please input valid 10-digit phone");
@@ -85,7 +85,7 @@ $("#contactform").validate({
 		<ul class="sub_menu">
             <li><a href="grading.html">Grading</a></li>
             <li><a href="retaining-walls.html">Retaining Walls</a></li>
-            <li><a href="excavation.html">Excavation</a></li>
+            <li><a href="earthmoving.html">Earthmoving</a></li>
             <li><a href="mowing.html">Mowing</a></li>
             <li><a href="brush-removal.html">Brush Removal</a></li>
             <li><a href="drainage.html">Drainage</a></li>
@@ -97,7 +97,7 @@ $("#contactform").validate({
             <li><a href="asphalt-application-and-removal.html">Asphalt Application &amp; Removal</a></li>
             <li><a href="deck-removal.html">Deck Removal</a></li>
             <li><a href="playground-renovation.html">Playground Renovation</a></li>
-            <li><a href="tree-removal.html">Tree Removal</a></li>
+            <li><a href="tree-maintenance.html">Tree Maintenance</a></li>
         </ul>
 	</li>
 </ul>
@@ -218,7 +218,7 @@ $form->output();
 
 <div class="footer">
 <div class="centerpage">
-<small>Copyright 2014 &copy; Mike's Hauling and Tractor Work</small>
+<small>Copyright 2016 &copy; Mike's Hauling and Tractor Work</small>
 <small><b>Licensed and Bonded# CCBWEX MIKESTO1ODK</b></small>
 <a href="policies.html">Website Policies</a>
 <a href="contact.php">Contact Mike's</a>
