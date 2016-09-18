@@ -72,7 +72,7 @@ $(function() {
 		<ul class="sub_menu">
             <li><a href="grading.html">Grading</a></li>
             <li><a href="retaining-walls.html">Retaining Walls</a></li>
-            <li><a href="excavation.html">Excavation</a></li>
+            <li><a href="earthmoving.html">Earthmoving</a></li>
             <li><a href="mowing.html">Mowing</a></li>
             <li><a href="brush-removal.html">Brush Removal</a></li>
             <li><a href="drainage.html">Drainage</a></li>
@@ -84,7 +84,7 @@ $(function() {
             <li><a href="asphalt-application-and-removal.html">Asphalt Application &amp; Removal</a></li>
             <li><a href="deck-removal.html">Deck Removal</a></li>
             <li><a href="playground-renovation.html">Playground Renovation</a></li>
-            <li><a href="tree-removal.html">Tree Removal</a></li>
+            <li><a href="tree-maintenance.html">Tree Maintenance</a></li>
         </ul>
 	</li>
 </ul>
@@ -133,7 +133,7 @@ $mpage->br();
 
 
 <p>
-Mike's can help you improve your home and yard with landscaping services such as <a href="excavation.html">excavation and digging</a>, <a href="stump-removal.html">stump</a> and
+Mike's can help you improve your home and yard with landscaping services such as <a href="earthmoving.html">earthmoving and digging</a>, <a href="stump-removal.html">stump</a> and
 <a href="rock-moving.html">rock removal</a>, <a href="drainage.html">drainage solutions</a>, and more.<br /><br />
 I also provide various <a href="asphalt-application-and-removal.html">asphalt</a> and concrete services to help with adding or removing pavement on your property.<br /><br />
 Mike's <a href="hauling-yard-waste.html">hauls away</a> any yard waste, scrap wood, or concrete debris you may have, so there's no mess to deal with.
@@ -171,7 +171,7 @@ $mpage->output_citylinks();
 
 <div class="footer">
 <div class="centerpage">
-<small>Copyright 2014 &copy; Mike's Hauling and Tractor Work</small>
+<small>Copyright 2016 &copy; Mike's Hauling and Tractor Work</small>
 <small><b>Licensed and Bonded# CCBWEX MIKESTO1ODK</b></small>
 <a href="policies.html">Website Policies</a>
 <a href="contact.php">Contact Mike's</a>
