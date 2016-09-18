@@ -72,7 +72,7 @@ $(function() {
 		<ul class="sub_menu">
             <li><a href="grading.html">Grading</a></li>
             <li><a href="retaining-walls.html">Retaining Walls</a></li>
-            <li><a href="excavation.html">Excavation</a></li>
+            <li><a href="earthmoving.html">Earthmoving</a></li>
             <li><a href="mowing.html">Mowing</a></li>
             <li><a href="brush-removal.html">Brush Removal</a></li>
             <li><a href="drainage.html">Drainage</a></li>
@@ -84,7 +84,7 @@ $(function() {
             <li><a href="asphalt-application-and-removal.html">Asphalt Application &amp; Removal</a></li>
             <li><a href="deck-removal.html">Deck Removal</a></li>
             <li><a href="playground-renovation.html">Playground Renovation</a></li>
-            <li><a href="tree-removal.html">Tree Removal</a></li>
+            <li><a href="tree-maintenance.html">Tree Maintenance</a></li>
         </ul>
 	</li>
 </ul>
@@ -134,7 +134,7 @@ $mpage->br();
 
 <p>
 Mike's can help with just about any landscaping project you have in mind. I provide many services to improve your home and garden, such as <a href="deck-removal.html">deck removal</a>,
-<a href="excavation.html">yard excavation</a>, and <a href="tree-removal.html">tree removal</a>, just to name a few examples.<br /><br />
+<a href="earthmoving.html">yard digging</a>, and <a href="tree-maintenance.html">tree maintenance</a>, just to name a few examples.<br /><br />
 For rural clients, I can help out with <a href="brush-removal.html">clearing brush</a> or mowing overgrown <a href="mowing.html">grass fields</a> with my tractor
 so they're manageable once again.
 </p>
@@ -170,7 +170,7 @@ $mpage->output_citylinks();
 
 <div class="footer">
 <div class="centerpage">
-<small>Copyright 2014 &copy; Mike's Hauling and Tractor Work</small>
+<small>Copyright 2016 &copy; Mike's Hauling and Tractor Work</small>
 <small><b>Licensed and Bonded# CCBWEX MIKESTO1ODK</b></small>
 <a href="policies.html">Website Policies</a>
 <a href="contact.php">Contact Mike's</a>
