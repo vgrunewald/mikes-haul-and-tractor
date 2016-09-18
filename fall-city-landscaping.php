@@ -72,7 +72,7 @@ $(function() {
 		<ul class="sub_menu">
             <li><a href="grading.html">Grading</a></li>
             <li><a href="retaining-walls.html">Retaining Walls</a></li>
-            <li><a href="excavation.html">Excavation</a></li>
+            <li><a href="earthmoving.html">Earthmoving</a></li>
             <li><a href="mowing.html">Mowing</a></li>
             <li><a href="brush-removal.html">Brush Removal</a></li>
             <li><a href="drainage.html">Drainage</a></li>
@@ -84,7 +84,7 @@ $(function() {
             <li><a href="asphalt-application-and-removal.html">Asphalt Application &amp; Removal</a></li>
             <li><a href="deck-removal.html">Deck Removal</a></li>
             <li><a href="playground-renovation.html">Playground Renovation</a></li>
-            <li><a href="tree-removal.html">Tree Removal</a></li>
+            <li><a href="tree-maintenance.html">Tree Maintenance</a></li>
         </ul>
 	</li>
 </ul>
@@ -134,7 +134,7 @@ $mpage->br();
 
 <p>
 Whether you own a home or larger span of property, Mike's provides a wide range of landscaping services such as <a href="mowing.html">tractor mowing</a>,
-<a href="tree-removal.html">tree removal</a> and <a href="stump-removal.html">stump pulling</a>, <a href="drainage.html">drainage solutions</a>, and a whole
+<a href="tree-maintenance.html">tree maintenance</a> and <a href="stump-removal.html">stump pulling</a>, <a href="drainage.html">drainage solutions</a>, and a whole
 lot more.<br /><br />
 Need to clean up some acreage? I can tear down and <a href="hauling-yard-waste.html">haul away</a> all kinds of concrete and scrap wood, and <a href="grading.html">level out the land</a>
 if needed.<br /><br />
@@ -173,7 +173,7 @@ $mpage->output_citylinks();
 
 <div class="footer">
 <div class="centerpage">
-<small>Copyright 2014 &copy; Mike's Hauling and Tractor Work</small>
+<small>Copyright 2016 &copy; Mike's Hauling and Tractor Work</small>
 <small><b>Licensed and Bonded# CCBWEX MIKESTO1ODK</b></small>
 <a href="policies.html">Website Policies</a>
 <a href="contact.php">Contact Mike's</a>
