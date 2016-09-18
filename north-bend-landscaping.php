@@ -171,7 +171,7 @@ $mpage->output_citylinks();
 
 <div class="footer">
 <div class="centerpage">
-<small>Copyright 2014 &copy; Mike's Hauling and Tractor Work</small>
+<small>Copyright 2016 &copy; Mike's Hauling and Tractor Work</small>
 <small><b>Licensed and Bonded# CCBWEX MIKESTO1ODK</b></small>
 <a href="policies.html">Website Policies</a>
 <a href="contact.php">Contact Mike's</a>

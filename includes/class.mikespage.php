@@ -17,12 +17,12 @@ class mikespage extends cahtml
 	var $default_meta_keywords = '[city], landscaping, landscape, hauling, landscaping service, [city] landscaping';
 	var $heading = '[city] Landscaping';
 	var $services_heading = "Mike's [city] Landscaping and Hauling Services";
-	
+
 	var $gallery = array();
-	
+
 	var $servicelist = array('Grading',
 													 'Retaining Walls',
-													 'Excavation',
+													 'Earthmoving',
 													 'Mowing',
 													 'Brush Removal',
 													 'Drainage',
@@ -34,8 +34,8 @@ class mikespage extends cahtml
 													 'Asphalt Application / Removal',
 													 'Deck Removal',
 													 'Playground Renovation',
-													 'Tree Removal');
-	
+													 'Tree Maintenance');
+
 	var $citylist = array('Issaquah',
 												'Redmond',
 												'Bellevue',
@@ -46,12 +46,12 @@ class mikespage extends cahtml
 												'Snoqualmie',
 												'Fall City',
 												'Newcastle');
-	
+
 	var $zipcodes = '98029, 98027';
-	
+
 	var $mapcode = '<iframe width="300" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=issaquah,+wa&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=60.894251,96.503906&amp;ie=UTF8&amp;hq=&amp;hnear=Issaquah,+King,+Washington&amp;t=m&amp;ll=47.530184,-122.0327&amp;spn=0.083452,0.205994&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=issaquah,+wa&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=60.894251,96.503906&amp;ie=UTF8&amp;hq=&amp;hnear=Issaquah,+King,+Washington&amp;t=m&amp;ll=47.530184,-122.0327&amp;spn=0.083452,0.205994&amp;z=11&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>';
-	
-	
+
+
 	/*********************************************************************************************************************
   * output_title()
   *********************************************************************************************************************/
@@ -59,8 +59,8 @@ class mikespage extends cahtml
 	{
 		$this->tag('title', $this->city . ' Landscaping');
 	}
-	
-	
+
+
 	/*********************************************************************************************************************
   * output_metas()
   *********************************************************************************************************************/
@@ -68,7 +68,7 @@ class mikespage extends cahtml
 	{
 		$desc = str_replace('[city]', $this->city, $this->default_meta_description);
 		$keys = str_replace('[city]', $this->city, $this->default_meta_keywords);
-		$this->xecho('<meta name="description" content="' . $desc . '" />'); 
+		$this->xecho('<meta name="description" content="' . $desc . '" />');
 		$this->xecho('<meta name="keywords" content="' . $keys . '" />');
 	}
 
@@ -81,8 +81,8 @@ class mikespage extends cahtml
 		$heading = str_replace('[city]', $this->city, $this->heading);
 		$this->tag('h1', $heading);
 	}
-	
-	
+
+
 	/*********************************************************************************************************************
   * output_heading()
   *********************************************************************************************************************/
@@ -93,8 +93,8 @@ class mikespage extends cahtml
 		$this->linktag('services.html', 'See Full List of Landscaping Services...');
 		$this->br(2);
 	}
-	
-	
+
+
 	/*********************************************************************************************************************
   * add_image()
   *********************************************************************************************************************/
@@ -104,8 +104,8 @@ class mikespage extends cahtml
 									'caption'	=>	$caption);
 		array_push($this->gallery, $temp);
 	}
-	
-	
+
+
 	/*********************************************************************************************************************
   * output_gallery()
   *********************************************************************************************************************/
@@ -123,8 +123,8 @@ class mikespage extends cahtml
 			$this->ctag();
 		}
 	}
-	
-	
+
+
 	/*********************************************************************************************************************
   * output_services_list()
   *********************************************************************************************************************/
@@ -140,8 +140,8 @@ class mikespage extends cahtml
 		$this->clear();
 		$this->ctag(2);	//ul, .roundedgreen
 	}
-	
-	
+
+
 	/*********************************************************************************************************************
   * output_scheduling()
   *********************************************************************************************************************/
@@ -152,8 +152,8 @@ class mikespage extends cahtml
 		$this->clink();
 		$this->tag('h2', 'Get a FREE Estimate for your ' . $this->city . ' Landscaping Project');
 	}
-	
-	
+
+
 	/*********************************************************************************************************************
   * output_citylinks()
   *********************************************************************************************************************/
@@ -173,7 +173,7 @@ class mikespage extends cahtml
 				$this->linktag($linkurl, $thiscity);
 				$this->ctag();
 			}
-			
+
 		}
 		$this->ctag();
 		$this->clear();
@@ -191,7 +191,7 @@ class mikespage extends cahtml
 			$this->ctag();	//.zipbox
 		}
 	}
-	
-	
+
+
 }
 ?>
