@@ -72,7 +72,7 @@ $(function() {
 		<ul class="sub_menu">
             <li><a href="grading.html">Grading</a></li>
             <li><a href="retaining-walls.html">Retaining Walls</a></li>
-            <li><a href="excavation.html">Excavation</a></li>
+            <li><a href="earthmoving.html">Earthmoving</a></li>
             <li><a href="mowing.html">Mowing</a></li>
             <li><a href="brush-removal.html">Brush Removal</a></li>
             <li><a href="drainage.html">Drainage</a></li>
@@ -84,7 +84,7 @@ $(function() {
             <li><a href="asphalt-application-and-removal.html">Asphalt Application &amp; Removal</a></li>
             <li><a href="deck-removal.html">Deck Removal</a></li>
             <li><a href="playground-renovation.html">Playground Renovation</a></li>
-            <li><a href="tree-removal.html">Tree Removal</a></li>
+            <li><a href="tree-maintenance.html">Tree Maintenance</a></li>
         </ul>
 	</li>
 </ul>
@@ -133,7 +133,7 @@ $mpage->br();
 
 
 <p>
-Whether you want to <a href="tree-removal.html">remove trees</a> or <a href="stump-removal.html">stumps</a>, improve <a href="drainage.html">drainage</a>,
+Whether you want to <a href="tree-maintenance.html">clear trees</a> or remove <a href="stump-removal.html">stumps</a>, improve <a href="drainage.html">drainage</a>,
 <a href="brush-removal.html">clear brush</a>, or <a href="mowing.html">tractor-mow</a> a large field, Mike's does it all when it comes to North Bend area landscaping.<br /><br />
 And when the job's done, Mike's <a href="hauling-yard-waste.html">hauls away yard waste and debris</a>, so you're not left with a mess to clean up.<br /><br />
 I can also help with outdoor construction like sheds, <a href="retaining-walls.html">retaining walls</a>, and <a href="asphalt-application-and-removal.html">pavement</a>, just give Mike's a call!
