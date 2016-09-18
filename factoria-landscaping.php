@@ -72,7 +72,7 @@ $(function() {
 		<ul class="sub_menu">
             <li><a href="grading.html">Grading</a></li>
             <li><a href="retaining-walls.html">Retaining Walls</a></li>
-            <li><a href="excavation.html">Excavation</a></li>
+            <li><a href="earthmoving.html">earthmoving</a></li>
             <li><a href="mowing.html">Mowing</a></li>
             <li><a href="brush-removal.html">Brush Removal</a></li>
             <li><a href="drainage.html">Drainage</a></li>
@@ -84,7 +84,7 @@ $(function() {
             <li><a href="asphalt-application-and-removal.html">Asphalt Application &amp; Removal</a></li>
             <li><a href="deck-removal.html">Deck Removal</a></li>
             <li><a href="playground-renovation.html">Playground Renovation</a></li>
-            <li><a href="tree-removal.html">Tree Removal</a></li>
+            <li><a href="tree-maintenance.html">Tree Maintenance</a></li>
         </ul>
 	</li>
 </ul>
@@ -133,7 +133,7 @@ $mpage->br();
 
 
 <p>
-For Factoria homeowners, Mike's provides just about any landscape related service you may need, including <a href="tree-removal.html">tree</a> and
+For Factoria homeowners, Mike's provides just about any landscape related service you may need, including <a href="tree-maintenance.html">tree maintenance</a> and
 <a href="stump-removal.html">stump removal</a>, <a href="mowing.html">mowing</a> and <a href="brush-removal.html">brush removal</a>, a variety of
 <a href="asphalt-application-and-removal.html">asphalt services</a>, and much more.<br /><br />
 Need something built? I can help construct sheds, <a href="retaining-walls.html">retaining walls</a>, and even <a href="playground-renovation.html">playgrounds</a>...
@@ -173,7 +173,7 @@ $mpage->output_citylinks();
 
 <div class="footer">
 <div class="centerpage">
-<small>Copyright 2014 &copy; Mike's Hauling and Tractor Work</small>
+<small>Copyright 2016 &copy; Mike's Hauling and Tractor Work</small>
 <small><b>Licensed and Bonded# CCBWEX MIKESTO1ODK</b></small>
 <a href="policies.html">Website Policies</a>
 <a href="contact.php">Contact Mike's</a>
